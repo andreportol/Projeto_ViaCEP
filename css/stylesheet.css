@@ -4,3 +4,19 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
+.nav-row{
+    background: #ff8c00;
+    height: 100px;   
+}
+
+.nav-DSViaCEP{
+    font-weight: 700;
+    margin: 0;
+    font-size: 36px;  
+}
+.nav-contato{
+    font-weight: 400;
+    margin: 0;
+    font-size: 18px;
+}
