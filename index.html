@@ -6,35 +6,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DSViaCEP</title>
-   <!--link com o BootStrap-->
-   <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <!--link com o BootStrap-->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <!--link do arquivo css-->
-    <link rel="stylesheet" href="./css/stylesheet.css">  
+    <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 
-<body class="bg-dark">
+<body>
     <header>
-        <nav>
-            <div class="container-fluid">
-                <div class="row nav-row">
-                    <div class="col-12 text-white d-flex justify-content-around align-items-center">
-                        <h1 class="h1 nav-DSViaCEP">DSViaCEP</h1>
-                        <p class="text-white nav-contato">contato</p>
+        <ul class="nav nav-row justify-content-around text-white align-items-center">
+            <li class="nav-item">
+                <h1 class="nav-DSViaCEP">DSViaCEP</h1>
+            </li>
+            <li class="nav-item">
+                <p class="nav-contato">contato</p>
+            </li>
+        </ul>
+    </header>
+    <!--main-->
+    <main>
+        <section>
+            <div class="container container-formulario mt-5 p-3">
+                <div class="row">
+                    <div class="col-sm">
+                        <form class="form" action="">
+                            <input class="form-control mt-3" type="text" name="" id="" placeholder="CEP">
+                            <input class="form-control mt-3" type="text" name="" id="" placeholder="Logradouro">
+                            <input class="form-control mt-3" type="text" name="" id="" placeholder="Número">
+                            <input class="form-control mt-3" type="text" name="" id="" placeholder="Cidade">
+                            <div class="d-flex justify-content-between mt-3">
+                                <input class="btn text-white btn-lg botao-formulario" type="button" value="Salvar">
+                                <input class="btn text-white btn-lg botao-formulario" type="button" value="Limpar">
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-        </nav>
-    </header>
-    <main>
+        </section>
 
+        <section>
+            <div class="container container-result">
+                <div class="row">
+                    <div class="col-sm">
+                        <h2 class="h2-cidade">São Paulo</h2>
+                        <p class="paragrafo-rua">Rua Dos Jardins, 720</p>
+                        <p class="paragrafo-cep">11200-345</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container container-result">
+                <div class="row">
+                    <div class="col-sm">
+                        <h2 class="h2-cidade">São Paulo</h2>
+                        <p class="paragrafo-rua">Rua Dos Jardins, 720</p>
+                        <p class="paragrafo-cep">11200-345</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container container-result">
+                <div class="row">
+                    <div class="col-sm">
+                        <h2 class="h2-cidade">São Paulo</h2>
+                        <p class="paragrafo-rua">Rua Dos Jardins, 720</p>
+                        <p class="paragrafo-cep">11200-345</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
     </main>
-    <footer>
-
-    </footer>
 </body>
 
 </html>
