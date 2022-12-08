@@ -13,14 +13,19 @@ input{
     height: 50px;
 }
 
+.nav-container{
+    height: 80px;
+    background: #ff8400;   
+}
 .nav-row{
-    background: #ff8c00;
-    height: 100px;   
+    width: 100%;
+    max-width: 900px;  
 }
 
 .nav-DSViaCEP{
+    color: white;
     font-weight: 700;
-    margin: 0;
+    margin: 0px;
     font-size: 36px;  
 }
 .nav-contato{
@@ -29,28 +34,29 @@ input{
     font-size: 18px;
 }
 
-.container-formulario{
-    background: #363535;
-    width: 580px;
-    border-radius: 10px;
-    margin-bottom: 50px;
+.form-section{
+    background: #333;
+    border-radius: 8px;
 }
 
 .botao-formulario{
-    background: #ff8c00;
-    width: 200px;
+    background: #ff8400;
+    width: 100%;
+    max-width: 200px;    
 }
-.container-result{
-    background: #363535;
-    width: 850px;
-    border-radius: 10px;
+.form-list{
+    max-width: 900px;
     margin-top:25px;
     margin-bottom: 50px;
-
 }
 
-.h2-cidade{
-    color: #ff8c00;
+.form-row{
+    background: #333;
+    border-radius: 10px; 
+}
+
+.h3-cidade{
+    color: #ff8400;
     font-weight: 400;
     font-size: 18px;
     padding: 0px;
